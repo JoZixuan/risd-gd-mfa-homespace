@@ -4,7 +4,17 @@
 
 @font-face {
   font-family:'space-grotesk';
-  src: url(SpaceGrotesk-VariableFont_wght.ttf);
+  src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  src: url(fonts/akzidenzgroteskpro_regular.ttf);
+}
+@font-face {
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 600;
+  src: url(fonts/akzidenzgroteskpro_md.ttf);
 }
 body{
   height: 100vh;
@@ -21,7 +31,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: AkzidenzGroteskPro-Regular, 'Akzidenz-Grotesk Pro';
+  font-family: 'Akzidenz-Grotesk Pro',sans-serif;
   font-size: 24px;
   line-height:100%;
   color:#2454ff;
@@ -101,7 +111,7 @@ svg {
   line-height: 90%;
 }
 .akz{
-  font-family: AkzidenzGroteskPro-Regular, 'Akzidenz-Grotesk Pro';
+  font-family: 'Akzidenz-Grotesk Pro',sans-serif;
 }
 
 .pt32{
