@@ -283,8 +283,10 @@ h3{
 }
 
 .arrow-top{
-  margin-top: 5px;
+  margin-top: 29px;
   transition:0.1s ease-in-out;
+  font-size: 72px;
+  font-variation-settings: 'wght' 420;
 }
 
 .arrow-left:hover,
@@ -307,4 +309,76 @@ h3{
 .arrow-navigation a{
   text-decoration: none;
   color:#2454ff;
+}
+#flat-file-bigger-wrapper{
+  margin-top:20px;
+}
+
+#flat-file-wrapper{
+  width:100%;
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  /* */
+}
+.bar-wrapper{
+  display:flex;
+  flex-direction: column;
+}
+.left-bar{
+  width: 11px;
+  height: 204px;
+  outline: solid 2px #2454ff;
+  outline-offset: -2px;
+  margin-right:-2px;
+  /* margin-left:2px; */
+  flex-shrink: 0;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.bottom-bar{
+  height: 242px;
+  margin-top:-2px;
+  position:relative;
+}
+
+.right-bar-wrapper{
+  margin-left:-2px;
+  margin-right:2px;  
+}
+
+/* ----------- column divs ---------------- */
+/* ----------- column divs ---------------- */
+/* ----------- column divs ---------------- */
+
+.columns{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  margin-top: -5px;
+}
+.single-block{
+ width: 11px;
+ height: 11px;
+ background-color:#2454ff;
+}
+
+/* .bottom class is only for the bottom edge of the page  */
+.bottom{
+  width: 99%;
+  position:fixed;
+  bottom:0;
+}
+
+.bottom-absolute{
+  position:absolute;
+  bottom:0;
+}
+.top{
+  position:fixed;
+  top:0;
 }
