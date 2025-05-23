@@ -9,6 +9,17 @@ if (drawerFrontBiennial) {
   });
 }
 
+const drawerFrontGradShow = document.querySelector('#grad-show');
+
+if (drawerFrontGradShow) {
+  drawerFrontGradShow.addEventListener('click', () => {
+    const drawerInside = drawerFrontGradShow.previousElementSibling;
+    if (drawerInside && drawerInside.classList.contains('drawer-inside')) {
+      drawerInside.classList.toggle('open2');
+    }
+  });
+}
+
 ////// this section is for student table png pop-ups////////////
 
 function togglePopup(evt, id) {
